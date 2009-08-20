@@ -1,0 +1,1 @@
+<div style="right: 0px; position: absolute;"><a href="<?= base_url(); ?>index.html"><img src="images/xare_logo.jpg" border="0" /></a></div>

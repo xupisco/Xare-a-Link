@@ -1,0 +1,231 @@
+body {
+	margin: 0 0 0 0;
+	font-family: Arial;
+	font-size: 13px;
+	color: #000;
+	background: #fff;
+}
+
+a { text-decoration: underline; }
+
+#div_load, #div_proc, #div_fmsg {
+    display: none;
+    background-color: #ff0000;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 6px;
+    border: 1px solid #B50404;
+    top: 8px;
+    right: 8px;
+    position: fixed;
+    z-index: 100;
+}
+
+.highlight { background-color: yellow }
+
+a:hover {
+	color: #ff0000;
+	text-decoration: underline;
+}
+
+a.mini_link {
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+}
+
+a.mini_link:hover {
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+a.lsorter { text-decoration: none; color: #000000; }
+a.lsorter:hover { color: #ff0000; text-decoration: underline; }
+
+a.lsorter_sel { text-decoration: none; color: #ff0000; font-weight: bold; }
+a.lsorter_sel:hover { color: #ff0000; text-decoration: underline; }
+
+a.tag { text-decoration: none; 	color: #8FB718; }
+a.tag:hover { text-decoration: underline; color: #BF172E; }
+
+.nav_sep {
+	font-size: 14px;
+	color: #82C114;
+}
+
+#content_name {
+	color: #99C145;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#content_desc {
+    font-size: 12px;
+    color: #777777;
+}
+
+span.rel_name {
+	overflow: hidden;
+    color: #999999;
+    font-size: 11px;
+}
+
+#dbar {
+	padding: 5px;
+	background-color: #f1f1f1;
+	border-bottom: 1px solid #99C145;
+}
+
+#tag_cloud {
+	background-color: #F2FFE8;
+	border: 1px solid #C7DFB5;
+	margin-top: 4px;
+	margin-bottom: 0px;
+	padding: 4px;
+	font-size: 12px;
+}
+
+#content_rel {
+	font-size: 16px;
+    padding: 3px;
+}
+
+#roots {
+    padding: 6px;
+    font-size: 11px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+div.tools_box {
+	padding: 3px;
+	border: 1px solid #DBE7D2;
+	position: relative;
+	float: right;
+	background-color: #ffffff;
+	display: none;
+}
+
+div.tag_input {
+    font-size: 11px;
+	color: #99C145;
+	padding: 4px 0px 0px 0px;
+}
+
+div.tag_input input {
+    font-size: 11px;
+	padding: 2px;
+	overflow: visible;
+	width: 350px;
+}
+
+span.curr_tags {
+	font-size: 11px;
+	color: #99C145;
+}
+
+input.tags {
+	font-size: 11px;
+	width: 300px;
+	padding: 0px 2px;
+}
+
+input.tagsave {
+    font-size: 11px;
+	border: 0px;
+	background-color: #99C145;
+	color: #ffffff;
+    padding: 0px 2px;
+}
+
+input.tagsave:hover {
+	background-color: #7D9F31;
+	cursor: pointer;
+}
+
+span.tools_box-on {
+    padding: 1px 3px;
+    border: 1px solid #DBE7D2;
+    position: absolute;
+    background-color: #ffffff;
+    margin-top: 9px;
+}
+
+span.cnt_related {
+	color: #777777;
+	margin-bottom: 2px;
+}
+
+td.link_info {
+	text-align: center;
+	font-size: 12px;
+}
+
+td.str_nav,td.str_nav a {
+	font-family: Arial;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+	text-align: left;
+}
+
+td.str_nav a:hover {
+	color: #ff0000;
+	text-decoration: underline;
+}
+
+input.main_search {
+	width: 35%;
+	border: 1px solid #aaaaaa;
+	padding: 4px;
+	overflow: show;
+}
+
+select.main_select {
+    border: 1px solid #aaaaaa;
+    padding: 3px;
+    overflow: show;
+}
+
+input {
+	border: 1px solid #999999;
+}
+
+input.std_input {
+    width: 100%;
+    border: 1px solid #aaaaaa;
+    padding: 4px;
+    overflow: show;
+}
+
+input.search {
+	font-size: 24px;
+	color: #91B81B;
+    width: 100%;
+    border: 1px solid #aaaaaa;
+    padding: 2px;
+    overflow: show;
+}
+
+input.hf_input {
+    border: 0px;
+    padding: 2px;
+    overflow: show;
+    background-color: #484950;
+    color: #FFD016;
+}
+
+textarea.std_ta {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #aaaaaa;
+    padding: 4px;
+    font-family: Arial;
+    font-size: 14px;
+    overflow: show;
+}
+
+*::-moz-selection {
+	background-color: #5F965A;
+	color: #ffffff
+}
